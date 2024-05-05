@@ -6,7 +6,7 @@ with open ("README.md", "r", encoding='utf-8') as f:
 __version__="0.0.0"
 REPO_NAME = "Machine_learning_Ops_with_MLFlow"
 AUTHOR_USER_NAME = "Kishan"
-SRC_REPO = "mlProject"
+SRC_REPO = "mlopsProject"
 AUTHOR_EMAIL = "kishanajudiya13@gmail.com"
 
 setuptools.setup(
