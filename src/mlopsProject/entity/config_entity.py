@@ -30,3 +30,13 @@ class ModelTrainerConfig:
     alpha: float # it will get from params.yaml
     l1_ratio: float # it will get from params.yaml
     target_column: str # it will get from schema.yaml 
+
+@dataclass(frozen=True)
+class ModelEvaluationConfig:
+    root_dir: Path
+    test_data_path: Path
+    model_path: Path 
+    all_params: dict #from params.yaml
+    metric_file_name: Path #from config.yaml
+    target_column: str #from schema.yaml
+    mlflow_uri: str

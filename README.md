@@ -11,3 +11,29 @@
 7. Update the pipeline 
 8. Update the main.py
 9. Update the app.py
+
+## STEPS:
+
+## STEP 1: Clone the repository
+URL: https://github.com/kishan2910/Machine_Learning_Ops_with_MLFlow
+
+## STEP 2: Create and activate virtual environment 
+python -m venv mlopsProject
+. mlopsProject/scripts/activate
+
+## STEP 3: Install the requirements
+pip install -r requirements.txt
+
+## STEP 4: Run the app.py
+python app.py
+
+### Dagshub
+MLFLOW_TRACKING_URI=https://dagshub.com/kishan2910/Machine_Learning_Ops_with_MLFlow.mlflow \
+MLFLOW_TRACKING_USERNAME=kishan2910 \
+MLFLOW_TRACKING_PASSWORD=b7f010a3c4985624333a1cb0dc113d23f4bed703 \
+python script.py
+
+Run this to export as env variables:
+export MLFLOW_TRACKING_URI=https://dagshub.com/kishan2910/Machine_Learning_Ops_with_MLFlow.mlflow
+export MLFLOW_TRACKING_USERNAME=kishan2910
+export MLFLOW_TRACKING_PASSWORD=b7f010a3c4985624333a1cb0dc113d23f4bed703
