@@ -14,20 +14,20 @@
 
 ## STEPS:
 
-## STEP 1: Clone the repository
+### STEP 1: Clone the repository
 URL: https://github.com/kishan2910/Machine_Learning_Ops_with_MLFlow
 
-## STEP 2: Create and activate virtual environment 
+### STEP 2: Create and activate virtual environment 
 python -m venv mlopsProject
 . mlopsProject/scripts/activate
 
-## STEP 3: Install the requirements
+### STEP 3: Install the requirements
 pip install -r requirements.txt
 
-## STEP 4: Run the app.py
+### STEP 4: Run the app.py
 python app.py 
 
-### Dagshub
+## Dagshub
 MLFLOW_TRACKING_URI=https://dagshub.com/kishan2910/Machine_Learning_Ops_with_MLFlow.mlflow \
 MLFLOW_TRACKING_USERNAME=kishan2910 \
 MLFLOW_TRACKING_PASSWORD=b7f010a3c4985624333a1cb0dc113d23f4bed703 \
@@ -37,3 +37,6 @@ Run this to export as env variables:
 export MLFLOW_TRACKING_URI=https://dagshub.com/kishan2910/Machine_Learning_Ops_with_MLFlow.mlflow
 export MLFLOW_TRACKING_USERNAME=kishan2910
 export MLFLOW_TRACKING_PASSWORD=b7f010a3c4985624333a1cb0dc113d23f4bed703
+
+##AWS ECR
+repository URI: 304103768440.dkr.ecr.us-east-1.amazonaws.com/mlops-project
