@@ -25,7 +25,7 @@ python -m venv mlopsProject
 pip install -r requirements.txt
 
 ## STEP 4: Run the app.py
-python app.py
+python app.py 
 
 ### Dagshub
 MLFLOW_TRACKING_URI=https://dagshub.com/kishan2910/Machine_Learning_Ops_with_MLFlow.mlflow \
