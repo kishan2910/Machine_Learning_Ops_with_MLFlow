@@ -19,4 +19,14 @@ class DataValidationConfig:
 @dataclass(frozen=True)
 class DataTransformationConfig:
     root_dir: Path
-    data_path: Path    
+    data_path: Path   
+
+@dataclass(frozen=True)
+class ModelTrainerConfig:
+    root_dir: Path #from config.yaml
+    train_data_path: Path #from config.yaml
+    test_data_path: Path #from config.yaml
+    model_name: str # it will get from params.yaml
+    alpha: float # it will get from params.yaml
+    l1_ratio: float # it will get from params.yaml
+    target_column: str # it will get from schema.yaml 

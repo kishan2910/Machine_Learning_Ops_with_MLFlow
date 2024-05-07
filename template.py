@@ -18,9 +18,9 @@ list_of_files = [
     f"src/{project_name}/entity/__init__.py",
     f"src/{project_name}/entity/config_entity.py",
     f"src/{project_name}/constants/__init__.py",
-    "config/config.yaml",
-    "params.yaml",
-    "schema.yaml",
+    "config/config.yaml", # mandatory to store output file of each stage to destination and to store/fetch input of each stage.  
+    "params.yaml", # required in model trainer stage to load parameters for model.
+    "schema.yaml", # required in model validation stage to match columns and datatypes
     "main.py",
     "app.py",
     "Dockerfile",
